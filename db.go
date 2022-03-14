@@ -11,7 +11,7 @@ var GlobalCtx = context.Background()
 
 func Connect() (*mongo.Database, error) {
 	clientOptions := options.Client()
-	clientOptions.ApplyURI("mongodb://localhost:27017")
+	clientOptions.ApplyURI("mongodb://root:example@localhost:27017")
 
 	client, err := mongo.NewClient(clientOptions)
 	if err != nil {
