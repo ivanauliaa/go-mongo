@@ -2,8 +2,8 @@ package main
 
 func main() {
 	// Insert()
-	// Find()
+	Find()
 	// Update()
 	// Delete()
-	Aggregate()
+	// Aggregate()
 }
